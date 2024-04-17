@@ -1,3 +1,4 @@
+
 # SCSM2.5d
 SCSM2.5D is a 2.5D seismic wave modeling program that uses a subdomain Chebyshev spectral finite difference method. 
 The 2.5D modeling technique produces a 3D wavefield using a 2D geological model, making it ideal for seismic line surveys. 
