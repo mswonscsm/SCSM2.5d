@@ -10,8 +10,19 @@ SCSM2.5d MPI/OpenMP version: Compile MainMPIOMP.f90, C_DF.f90, Gauss_Quad.f90, G
 By substituting MainOMP.f90 with MainMPIOMP.f90, the program can be converted to an MPI/OpenMP version that supports fully-parallel computation, utilizing cores equal to the number of wavenumber samples. 
 This enhancement reduces computation time to less than 1.5 times that of 2D modeling. 
 
-Windows: If you don't have Fortran compiler, you try the 'target.exe' with different input files (2.5Dseis_SCSM.inp and relaxation_time.inp) in Example folder.
+Windows: If you don't have Fortran compiler, you try the 'target.exe' with different input files (2.5Dseis_SCSM.inp and relaxation_time.inp) in Example folder. 
 
 Linux: run 'run.sh'.
 
 HPC: run 'runOMP.sh' or 'runMPIOMP.sh'.
+
+# Input data
+SCSM2.5d has two input data, 2.5Dseis_SCSM.inp and relaxation_time.inp.
+Details are explained in manual, Doc.
+
+# Output data
+Waveform figure: fort.xxx, Xgrid.out, Zgrid.out
+You can generate the figure in Matlab Figure Waveform.
+
+Seismogram: rec_real_x.out
+You can make seismogram in Matlab Figure Seismogram and Matlab Figure SeismicLine (for massive and complex seismograms).
