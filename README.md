@@ -20,8 +20,8 @@ SCSM2.5d has two input data, and details are explained in manual, Doc.
 * __relaxation_time.inp__
 
 # Output data
-* Waveform figure: __fort.xxx, Xgrid.out, Zgrid.out__
-You can generate the figure in __Matlab Figure Waveform__.
+* Waveform figure: __fort.xxx, Xgrid.out, Zgrid.out__ 
+You can generate the figure in __Matlab Figure Waveform__. __fort.xxx__ is generated only in 2D modeling.
 
 * Seismogram: __rec_real_x.out__
 You can make seismogram in __Matlab Figure Seismogram__ and __Matlab Figure SeismicLine__ (for massive and complex seismograms).
