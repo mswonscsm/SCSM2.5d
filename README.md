@@ -4,10 +4,8 @@ The 2.5D modeling technique produces a 3D wavefield using a 2D geological model,
 The program can handle various modeling scenarios including viscoacoustic, isotropic viscoelastic, anisotropic viscoelastic (VTI, ORT, and TTI), solid and water free surfaces, and water-solid interfaces.
 
 ![BP2007](https://github.com/mswonscsm/SCSM2.5d/assets/167202261/1c764575-584c-4dda-9ace-1df4e28f19dd)
-![rec1](https://github.com/mswonscsm/SCSM2.5d/assets/167202261/a15417b6-c40f-4e67-a130-cad212dce8bb)
-![rec2](https://github.com/mswonscsm/SCSM2.5d/assets/167202261/c2fb4328-212d-4ede-bd22-7500364d9391)
-![rec3](https://github.com/mswonscsm/SCSM2.5d/assets/167202261/179ffbaa-9b5c-4320-9fe5-f4b05a4150c7)
-![rec4](https://github.com/mswonscsm/SCSM2.5d/assets/167202261/d52a59ae-add4-493b-90d9-2aa9090e1000)
+![rec1](https://github.com/mswonscsm/SCSM2.5d/assets/167202261/a15417b6-c40f-4e67-a130-cad212dce8bb)![rec2](https://github.com/mswonscsm/SCSM2.5d/assets/167202261/c2fb4328-212d-4ede-bd22-7500364d9391)
+![rec3](https://github.com/mswonscsm/SCSM2.5d/assets/167202261/179ffbaa-9b5c-4320-9fe5-f4b05a4150c7)![rec4](https://github.com/mswonscsm/SCSM2.5d/assets/167202261/d52a59ae-add4-493b-90d9-2aa9090e1000)
 
 
 # Installment
