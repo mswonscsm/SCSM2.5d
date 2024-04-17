@@ -1,3 +1,4 @@
+![15](https://github.com/mswonscsm/SCSM2.5d/assets/167202261/08c9f2f1-042d-4a97-8797-c5edd586bba1)
 
 # SCSM2.5d
 SCSM2.5D is a 2.5D seismic wave modeling program that uses a subdomain Chebyshev spectral finite difference method. 
