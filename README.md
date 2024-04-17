@@ -10,7 +10,8 @@ The program can handle various modeling scenarios including viscoacoustic, isotr
 By substituting MainOMP.f90 with MainMPIOMP.f90, the program can be converted to an MPI/OpenMP version that supports fully-parallel computation, utilizing cores equal to the number of wavenumber samples. 
 This enhancement reduces computation time to less than 1.5 times that of 2D modeling. 
 
-* Windows: If you don't have Fortran compiler, you try the __'target.exe'__ with different input files __(2.5Dseis_SCSM.inp and relaxation_time.inp)__ in Example folder. 
+* Windows: If you don't have Fortran compiler, you can try the __'target.exe'__ with different input files __(2.5Dseis_SCSM.inp and relaxation_time.inp)__ in Example folder.
+However, you need to optimize absorbing layer, 2.5-D setting, core number for parallel computing, etc in Fortran code for your case. So, just try __target.exe__ for program test only. 
 * Linux: run __'run.sh'__.
 * HPC: run __'runOMP.sh' or 'runMPIOMP.sh'__.
 
@@ -21,7 +22,8 @@ SCSM2.5d has two input data, and details are explained in manual, Doc.
 
 # Output data
 * Waveform figure: __fort.xxx, Xgrid.out, Zgrid.out__ 
-You can generate the figure in __Matlab Figure Waveform__. __fort.xxx__ is generated only in 2D modeling.
+You can generate the figure in __Matlab Figure Waveform__.
+__fort.xxx__ is generated only in 2D modeling.
 
 * Seismogram: __rec_real_x.out__
 You can make seismogram in __Matlab Figure Seismogram__ and __Matlab Figure SeismicLine__ (for massive and complex seismograms).
