@@ -11,14 +11,13 @@ By substituting MainOMP.f90 with MainMPIOMP.f90, the program can be converted to
 This enhancement reduces computation time to less than 1.5 times that of 2D modeling. 
 
 * Windows: If you don't have Fortran compiler, you try the 'target.exe' with different input files (2.5Dseis_SCSM.inp and relaxation_time.inp) in Example folder. 
-
 * Linux: run 'run.sh'.
-
 * HPC: run 'runOMP.sh' or 'runMPIOMP.sh'.
 
 # Input data
-* SCSM2.5d has two input data, 2.5Dseis_SCSM.inp and relaxation_time.inp.
-Details are explained in manual, Doc.
+SCSM2.5d has two input data, and details are explained in manual, Doc.
+* 2.5Dseis_SCSM.inp
+* relaxation_time.inp.
 
 # Output data
 * Waveform figure: fort.xxx, Xgrid.out, Zgrid.out
