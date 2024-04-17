@@ -16,8 +16,8 @@ This enhancement reduces computation time to less than 1.5 times that of 2D mode
 
 # Input data
 SCSM2.5d has two input data, and details are explained in manual, Doc.
-* 2.5Dseis_SCSM.inp
-* relaxation_time.inp.
+** 2.5Dseis_SCSM.inp
+** relaxation_time.inp.
 
 # Output data
 * Waveform figure: fort.xxx, Xgrid.out, Zgrid.out
