@@ -29,4 +29,5 @@ You can make seismogram in Matlab Figure Seismogram and Matlab Figure SeismicLin
 
 # Contact
 Moosoo Won, PhD in Earth Sciences, Khalifa University, 100058280@ku.ac.ae, merccer999@gmail.com
+
 Dr.Bing Zhou, Associate Professor, Earth Sciences, Khalifa University, bing.zhou@ku.ac.ae
