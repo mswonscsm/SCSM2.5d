@@ -7,6 +7,7 @@ The program can handle various modeling scenarios including viscoacoustic, isotr
 SCSM2.5d OpenMP version: Compile MainOMP.f90, C_DF.f90, Gauss_Quad.f90, Grid_Model.f90, interp.f90, MATRIX_YYXZ.f90, MS_DF.f90, Viscoelastic.f90, and Viscoelastic2.f90. 
 
 SCSM2.5d MPI/OpenMP version: Compile MainMPIOMP.f90, C_DF.f90, Gauss_Quad.f90, Grid_Model.f90, interp.f90, MATRIX_YYXZ.f90, MS_DF.f90, Viscoelastic.f90, and Viscoelastic2.f90.
+
 By substituting MainOMP.f90 with MainMPIOMP.f90, the program can be converted to an MPI/OpenMP version that supports fully-parallel computation, utilizing cores equal to the number of wavenumber samples. 
 This enhancement reduces computation time to less than 1.5 times that of 2D modeling. 
 
@@ -28,6 +29,5 @@ Seismogram: rec_real_x.out
 You can make seismogram in Matlab Figure Seismogram and Matlab Figure SeismicLine (for massive and complex seismograms).
 
 # Contact
--Moosoo Won, PhD in Earth Sciences, Khalifa University of Science and Technology, 100058280@ku.ac.ae, merccer999@gmail.com
-
--Dr.Bing Zhou, Associate Professor, Earth Sciences, Khalifa University of Science and Technology, bing.zhou@ku.ac.ae
+*Moosoo Won, PhD in Earth Sciences, Khalifa University of Science and Technology, 100058280@ku.ac.ae, merccer999@gmail.com
+*Dr.Bing Zhou, Associate Professor, Earth Sciences, Khalifa University of Science and Technology, bing.zhou@ku.ac.ae
