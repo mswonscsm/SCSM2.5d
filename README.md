@@ -28,5 +28,5 @@ Seismogram: rec_real_x.out
 You can make seismogram in Matlab Figure Seismogram and Matlab Figure SeismicLine (for massive and complex seismograms).
 
 # Contact
-Moosoo Won, PhD in Earth Sciences, Khalifa University, 100058280@ku.ac.ae, merccer999@gmail.com
+Moosoo Won, PhD in Earth Sciences, Khalifa University, 100058280@ku.ac.ae, merccer999@gmail.com,
 Dr.Bing Zhou, Associate Professor, Earth Sciences, Khalifa University, bing.zhou@ku.ac.ae
