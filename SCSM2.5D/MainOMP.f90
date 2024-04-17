@@ -608,7 +608,7 @@ else
   write(*,*)'Nky=',Nky,'    Dky=',dky
 
 !=2.5D case
-ncore=10
+ncore=52
 call omp_set_num_threads(ncore)
 !$omp Parallel DEFAULT(SHARED) PRIVATE(wky1,FKY1,myid,FTG1)
   myid=OMP_GET_THREAD_NUM()
